@@ -8,5 +8,3 @@ puts response.body, response.code, response.message, response.headers.inspect
 parsed_response = JSON.parse(response.body)
 
 parsed_response
-
-binding.pry
